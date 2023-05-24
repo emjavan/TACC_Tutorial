@@ -10,8 +10,8 @@ enter password
 enter code for 2-factor authentication
 ~~~~
 
-## 2. Clone this repository or make one
-* Once connected you are on a login node. Login nodes are a shared resource with other users. Do NOT run or do anything that requires computation/resources. You can copy things to Corral (long-term storage), but other jobs must be done on a compute node.
+## 2. Clone/fork this repository or make one
+* Once connected to TACC you are on a login node. Login nodes are a shared resource with other users. Do **NOT** run or do anything that requires computation/resources. You can copy things to Corral (long-term storage), but other jobs must be done on a compute node.
 * cdw = change directory to $WORK, same as cd $WORK. TACC has 3 main directory $HOME, $WORK, $SCRATCH 
 * You will need to become familiar with Linux and BASH to work efficiently in a high performance computing (HPC) environment
 ~~~~
