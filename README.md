@@ -24,9 +24,11 @@ mkdir practice_repo
 cd practice_repo
 git init
 time for iter in {1..10}; do echo $iter; done >> test_loop.txt 
+git status
 git add test_loop.txt
 git commit -m "first commit, created test_loop.txt"
 git push
+git status
 ~~~~
 
 ## 3. Pick an editor
