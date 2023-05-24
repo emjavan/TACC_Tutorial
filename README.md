@@ -30,14 +30,20 @@ git commit -m "first commit, created test_loop.txt"
 git push
 git status
 ~~~~
+* If you make changes elsewhere and need to sync this repository. I recommend pulling before you start to work or be sure you've change to a working/test branch. Marge conflicts are very annoying and a time sink.
+~~~~
+git pull
+~~~~
 
 ## 3. Pick an editor
 * vi, vim, emacs. You'll need to become comfortable with some editor to make changes to files and debug
 
 ## 4. Request compute node
-* To test out some code quickly you'll want a development node, the max time is 2hrs. Replace Example_Allocation with the name of the allocation you've been added to. 
+* To test out some code quickly you'll want a development node, the max time is 2hrs. Replace Example_Allocation with the name of the allocation you've been added to. If you want to end a session before you get kicked off, then type `exit`.
 ~~~~
 idev -N 1 -n 1 -t 02:00:00 -p development -A Example_Allocation
+do some stuff
+exit
 ~~~~
 * If you need more time and don't want to submit a job you will have to wait in the queue live and risk your internet connection being broken and disrupting your work.
 ~~~~
