@@ -60,11 +60,15 @@ idev -N 1 -ntasks-per-node 1 -t 02:00:00 -p nvdimm -A Example_Allocation
 sbatch my_serial_job.sh
 ~~~~
 * Check on your job online at the TACC portal or showq = show queue
+* If you need to terminate a job use scancel and the JOBID listed from showq
 ~~~~
 showq -u
+scancel JOBID
 ~~~~
 
 ## 5. Submit a parallel job
+* Always good to test the first line of your commands runs appropriately in an interactive session
+* Use time to estimate run time and ensure you have requested enough to complete all tasks
 ~~~~
 sbatch launch_parallel_job.sh
 ~~~~
