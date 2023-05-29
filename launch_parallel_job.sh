@@ -6,7 +6,7 @@
 #SBATCH -p normal                    # Queue name, small is for <=2 nodes, normal for 3+ nodes
 #SBATCH -N 3                   	     # Total number of nodes requested (24 cores/node)
 #SBATCH -n 9                         # Total number of tasks to run
-#SBATCH -t 00:30:00            	     # Run time (hh:mm:ss)
+#SBATCH -t 00:03:00            	     # Run time (hh:mm:ss)
 #SBATCH -A A-ib1        # Allocation name
 #SBATCH --mail-user=emjavan@utexas.edu    # Email for notifications
 #SBATCH --mail-type=all              # Type of notifications, begin, end, fail, all
@@ -14,9 +14,10 @@
 # Create command script
 # Note: bash indent is 3 space not a tab, so ensure your editor does not auto indent tabs
 # >> add to new line in file, while > will replace
+# printing stderr and stdout to different files for all runs
 for i in {1..3}; do
    for j in {1..3}; do
-      echo bash run_test_job_par.sh $i $j >> commands_test_job_par.txt
+      echo "bash run_test_job_par.sh $i $j 2>&1 > parallel_output_files/stderr_${i}_${j}.txt" >> commands_test_job_par.txt
    done
 done
 
