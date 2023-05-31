@@ -67,7 +67,7 @@ scancel JOBID
 ~~~~
 
 ## 5. Submit a parallel job
-* Always good to test the first line of your commands runs appropriately in an interactive session
+* Always good to test if the first line of your commands file runs appropriately in an interactive session
 * Use time to estimate run time and ensure you have requested enough to complete all tasks
 ~~~~
 sbatch launch_parallel_job.sh
