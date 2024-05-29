@@ -1,5 +1,5 @@
-# TACC_Tutorial
-Quick examples for running jobs on TACC in serial or parallel. Examples are for Frontera, but are nearly identical for all clusters.
+# TACC Tutorial
+Quick examples for running jobs on TACC in serial or parallel. Examples are for Frontera, but are nearly identical for all clusters. If you'd like to get deeper into everything I highly recommend the [Software Engineering and Design](https://coe-332-sp22.readthedocs.io/en/main/index.html) course.
 
 ## 1. Login via ssh
 * On Mac open Terminal. Application > Utilities > Terminal
