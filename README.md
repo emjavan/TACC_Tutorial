@@ -72,12 +72,3 @@ scancel JOBID
 ~~~~
 sbatch launch_parallel_job.sh
 ~~~~
-
-
-
-
-
-
-
-
-
