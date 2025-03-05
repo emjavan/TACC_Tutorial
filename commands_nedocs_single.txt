@@ -1,0 +1,10 @@
+time Rscript run_nedocs_timeseries_analysis.R Hospital_1 FALSE
+time Rscript run_nedocs_timeseries_analysis.R Hospital_2 FALSE
+time Rscript run_nedocs_timeseries_analysis.R Hospital_3 FALSE
+time Rscript run_nedocs_timeseries_analysis.R Hospital_4 FALSE
+time Rscript run_nedocs_timeseries_analysis.R Hospital_5 FALSE
+time Rscript run_nedocs_timeseries_analysis.R Hospital_6 FALSE
+time Rscript run_nedocs_timeseries_analysis.R Hospital_7 FALSE
+time Rscript run_nedocs_timeseries_analysis.R Hospital_8 FALSE
+time Rscript run_nedocs_timeseries_analysis.R Hospital_9 FALSE
+time Rscript run_nedocs_timeseries_analysis.R Hospital_10 FALSE
