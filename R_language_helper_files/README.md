@@ -39,10 +39,11 @@ However, this change is only for the current session. To make it permanent, foll
 ## Modify `.Rprofile`
 Open (or create) `~/.Rprofile` and add .libPaths(c("~/R/", .libPaths())):
 ```
-vi ~/.Rprofile 
-i
+vi ~/.Rprofile # open your .Rprofile in vi
+i # type i to insert code, you'll copy and paste the line below
 .libPaths(c("~/R/", .libPaths()))
-
+esc # escape from inserting new text
+:wq # write and quit, so save what you just pasted in and exit
 ```
 Restart R and check by downloading some packages you need:
 ```
